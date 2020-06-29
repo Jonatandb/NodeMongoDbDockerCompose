@@ -1,0 +1,34 @@
+{
+  "name": "NodeMongoDbDockerCompose",
+  "version": "1.0.0",
+  "description": "Conexión de dos imágenes de Docker, una con NodeJs y otra con MongoDB, mediante Docker Compose",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Jonatandb/NodeMongoDbDockerCompose.git"
+  },
+  "keywords": [
+    "jonatandb",
+    "node",
+    "mongo",
+    "docker",
+    "nodejs",
+    "mongodb",
+    "docker-compose",
+    "express",
+    "mongoose"
+  ],
+  "author": "jonatandb@gmail.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Jonatandb/NodeMongoDbDockerCompose/issues"
+  },
+  "homepage": "https://github.com/Jonatandb/NodeMongoDbDockerCompose#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongoose": "^5.9.20"
+  }
+}
