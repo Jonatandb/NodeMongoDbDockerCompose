@@ -4,7 +4,7 @@
   "description": "Conexión de dos imágenes de Docker, una con NodeJs y otra con MongoDB, mediante Docker Compose",
   "main": "src/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node src/index.js"
   },
   "repository": {
     "type": "git",
