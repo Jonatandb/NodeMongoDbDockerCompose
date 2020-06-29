@@ -1,0 +1,17 @@
+version: "3"
+
+services:
+  web:
+    container_name: nodewebapp
+    restart: always
+    build: .
+    ports:
+      - "5000:3000"
+    links:
+      - mongoserver
+
+  mongoserver:
+    container_name: mongodatabase
+    image: mongo
+    ports:
+      - "27018:27017"
