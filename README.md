@@ -27,7 +27,10 @@ _Donde:_
   - Busca en la carpeta actual un archivo docker-compose.yml e instancia los contenedores para los servicios dentro descritos, utilizando las imagenes creadas mediante la ejecución de "docker-compose build"
 
     - Acceso a la app mediante:
+
       - http://localhost:5000
+
+  _docker-compose stop_ - Detiene los contendores
 
 ---
 
