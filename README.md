@@ -22,7 +22,9 @@ _Donde:_
 
 - Busca en la carpeta actual un archivo docker-compose.yml y crea las imágenes dentro descritas para cada servicio especificado.
 
-        docker-compose up
+  - Se debe ejecutar cada vez que se modifica el archivo docker-compose.yml para que se actualicen las imágenes.
+
+  **_docker-compose up_**
 
   - Busca en la carpeta actual un archivo docker-compose.yml e instancia los contenedores para los servicios dentro descritos, utilizando las imagenes creadas mediante la ejecución de "docker-compose build"
 
@@ -30,7 +32,9 @@ _Donde:_
 
       - http://localhost:5000
 
-  _docker-compose stop_ - Detiene los contendores
+  **_docker-compose stop_**
+
+  - Detiene los contendores
 
 ---
 

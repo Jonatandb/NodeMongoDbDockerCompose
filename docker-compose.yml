@@ -9,6 +9,8 @@ services:
       - "5000:3000"
     links:
       - mongoserver
+    volumes:
+      - .:/usr/src/app
 
   mongoserver:
     container_name: mongodatabase
