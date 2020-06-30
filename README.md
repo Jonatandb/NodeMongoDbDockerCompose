@@ -4,6 +4,8 @@
 
 ## Inicio de contenedores y acceso a la web desde el navegador y al contenedor desde la consola:
 
+- docker-compose build (la primera vez y cada vez que se modifique el archivo docker-compose.yml)
+
 - docker-compose up
 
 - http://localhost:5000
