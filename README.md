@@ -1,10 +1,22 @@
-## Conexión de dos imágenes de Docker, una con NodeJs y otra con MongoDB, mediante Docker Compose
+# Conexión de dos imágenes de Docker, una con NodeJs y otra con MongoDB, mediante Docker Compose
+
+---
+
+## Acceso a la web desde el navegador y al contenedor desde la consola:
+
+- http://localhost:5000
+
+- docker exec -it nodewebapp bash
+
+---
 
 ### **Creación de imagen de Docker:**
 
     docker build -t nombreImagen .
 
 _- Es importante poner el punto al final, ya que hace referencia a la carpeta actual y es donde Docker buscará un archivo Dockerfile para crear la imagen con el nombre especificado._
+
+---
 
 ### **Ejecución de imagen (instanciación del contenedor):**
 
@@ -15,6 +27,8 @@ _Donde:_
 - 3000 Puerto en el que corre el servidor dentro del contendor
 
 - 4000 Puerto desde el que se accederá: http://localhost:4000
+
+---
 
 ### **Uso de docker-compose:**
 
@@ -36,14 +50,20 @@ _Donde:_
 
   - Detiene los contendores
 
+---
+
 ### **Accediendo a un contenedor en ejecución:**
 
-    docker ps -a (para ver contendores en ejecución)
-    docker exec -t nombreContenedor bash
+    docker ps (para ver contendores en ejecución)
+    docker exec -it nombreContenedor bash
 
 ---
 
 ### **Páginas consultadas:**
+
+Node, Mongo & Docker Compose | Para iniciantes
+
+- https://www.youtube.com/watch?v=w1v6DspnUBQ
 
 Adding a remote
 
@@ -74,3 +94,11 @@ Docker Compose failed to build - Filesharing has been cancelled
 Disable logging for one container in Docker-Compose
 
 - https://stackoverflow.com/questions/34590317/disable-logging-for-one-container-in-docker-compose
+
+---
+
+<p align="center">
+    <a href="https://ko-fi.com/L3L31N4GV" target="_blank">
+            <img src="https://www.ko-fi.com/img/githubbutton_sm.svg" alt="Support me on Ko-fi"/>
+    </a>
+</p>
