@@ -99,6 +99,14 @@ Disable logging for one container in Docker-Compose
 
 - https://stackoverflow.com/questions/34590317/disable-logging-for-one-container-in-docker-compose
 
+Docker /bin/bash: nodemon: command not found
+
+- https://stackoverflow.com/questions/33663496/docker-bin-bash-nodemon-command-not-found
+
+npm-scripts
+
+- https://docs.npmjs.com/misc/scripts
+
 ---
 
 <p align="center">
