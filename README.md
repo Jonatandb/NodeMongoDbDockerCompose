@@ -2,7 +2,9 @@
 
 ---
 
-## Acceso a la web desde el navegador y al contenedor desde la consola:
+## Inicio de contenedores y acceso a la web desde el navegador y al contenedor desde la consola:
+
+- docker-compose up
 
 - http://localhost:5000
 
