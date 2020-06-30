@@ -36,9 +36,14 @@ _Donde:_
 
   - Detiene los contendores
 
+### **Accediendo a un contenedor en ejecución:**
+
+    docker ps -a (para ver contendores en ejecución)
+    docker exec -t nombreContenedor bash
+
 ---
 
-### Páginas consultadas:
+### **Páginas consultadas:**
 
 Adding a remote
 
@@ -59,3 +64,9 @@ Node en Docker Hub
 Mongo en Docker Hub
 
 - https://hub.docker.com/_/mongo
+
+Docker Compose failed to build - Filesharing has been cancelled
+
+- https://stackoverflow.com/questions/60754297/docker-compose-failed-to-build-filesharing-has-been-cancelled
+
+  - Tuve que especificar en la configuración de recursos de Docker, la ruta a la carpeta que vinculé con un volumen de Docker, por temas de seguridad de la versión de Docker que estoy usando.
