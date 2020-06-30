@@ -4,6 +4,10 @@
 
 ## Inicio de contenedores y acceso a la web desde el navegador y al contenedor desde la consola:
 
+- Primero se debe agregar en la configuración de Docker la ruta a la carpeta actual: Docker -> Settings -> Resources -> File sharing
+
+- npm install (para que se instale nodemon, que se usará en modo desarrollo)
+
 - docker-compose build (la primera vez y cada vez que se modifique el archivo docker-compose.yml)
 
 - docker-compose up
