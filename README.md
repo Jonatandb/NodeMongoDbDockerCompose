@@ -70,3 +70,7 @@ Docker Compose failed to build - Filesharing has been cancelled
 - https://stackoverflow.com/questions/60754297/docker-compose-failed-to-build-filesharing-has-been-cancelled
 
   - Tuve que especificar en la configuración de recursos de Docker, la ruta a la carpeta que vinculé con un volumen de Docker, por temas de seguridad de la versión de Docker que estoy usando.
+
+Disable logging for one container in Docker-Compose
+
+- https://stackoverflow.com/questions/34590317/disable-logging-for-one-container-in-docker-compose
