@@ -19,3 +19,5 @@ services:
       - "27018:27017"
     logging:
       driver: none
+    volumes:
+      - ./mongo_data:/data/db
